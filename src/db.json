@@ -626,4 +626,128 @@
     }
     
   ]
+  ,
+
+  "sale":[
+    {
+      "id": 701,
+      "name": "Shuperb",
+      "price": 2150,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRImtVpF4ERYruIFdUxEcGMtbvNhYQiDWOKHw&usqp=CAU"
+    },
+    {
+      "id": 702,
+      "name": "adidas",
+      "price": 5000,
+      "img": "https://media.istockphoto.com/id/458068097/photo/adidas-superstar.jpg?s=612x612&w=0&k=20&c=cBTSduk5_pPHdQi-Qz_YgJrkceHM4Wk4oDww5O_vwaw="
+    },
+    {
+      "id": 703,
+      "name": "Sparks",
+      "price": 4000,
+     
+      "img": "https://rukminim1.flixcart.com/image/832/832/l09w8sw0/shoe/l/h/g/6-sm-707-6-sparx-blue-original-imagc2vpdgvpbbzu.jpeg?q=70"
+    },
+    {
+      "id": 704,
+      "brand": "VLCC Vitamin C Foaming Facewash",
+      "price": 499,
+      "img": "https://cdn.shopify.com/s/files/1/0555/3894/2031/products/VitaminCFaceWash_Front_700x.jpg?v=1651167970"
+    },
+    {
+      "id": 705,
+      "brand": "Maybelline INSTANT AGE REWIND CONCEALER",
+      "price": 2099,
+      "img": "https://www.maybelline.co.in/-/media/project/loreal/brand-sites/mny/apac/in/products/face/concealer/instant-age-rewind-concealer/modules/product-info/neutral/880x1320_instant-age-rewind-eraser_stick_neutral_o.jpg?rev=a23dc478cb9441629e13506e4e29b979&cx=0&cy=0&cw=316&ch=475&hash2CF2D5B80EC3CEC26BD9D5C83F3E9F78"
+    },
+    {
+      "id": 706,
+      "brand": "biotque Advanced Organics",
+      "price": 225,
+      "img": "https://cdn.shopify.com/s/files/1/0652/3787/6974/products/1.jpg?v=1665050794"
+    },
+    {
+      "id": 707,
+      "brand": "Jovees Sindoor Red",
+      "price": 125,
+      "img": "https://jovees.com/media/catalog/product/cache/5c4bc2c3d3720a5cabc0a23ab84582f1/1/s/1st-banner_5_.jpg"
+    },
+    {
+      "id": 708,
+      "brand": "Hooper Switch",
+      "price": 699,
+      "color": [
+        "Orange"
+      ],
+      "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//h/i/orange-transparent-yellow-full-rim-rectangle-hooper--hp-e14821l-c2-eyelasses_g_3013_7_21_22.jpg"
+    },
+    {
+      "id": 709,
+      "brand": "Fossil ",
+      "price": 399,
+      "color": [
+        "grey",
+        "black"
+      ],
+      "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/1325x636/9df78eab33525d08d6e5fb8d27136e95//f/o/fos-fos-7078-g-rzz-eyeglasses_G_6910.jpg"
+    },
+    {
+      "id": 710,
+      "brand": "New Balance",
+      "price": 1299,
+      "color": [
+        "Sky blue"
+      ],
+      "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/1325x636/9df78eab33525d08d6e5fb8d27136e95//n/e/new-balance-nb-e13663-c1-eyeglasses_g_4477_3.jpg"
+    },
+    {
+      "id": 711,
+      "brand": "Mufti",
+      "price": 2999,
+      
+      "img": "https://www.muftijeans.in/media/catalog/product/cache/72ecbf8444b2c4d1e625f30416db39ce/1/_/1_mft-17189-p-89-stone_2.jpg"
+    },
+    {
+      "id": 712,
+      "brand": "H & M",
+      "price": 1499,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8QsLtEfsXjUxAk4jLPD2LIuwsplPfqB5mBQ&usqp=CAU"
+    },
+    {
+      "id": 713,
+      "brand": "Roadstar",
+      "price": 1099,
+      "img": "https://m.media-amazon.com/images/I/616NBgSKg8L._UX385_.jpg"
+    },
+    {
+      "id": 207,
+      "brand": "Allen solly",
+      "price": 2099,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://imagescdn.allensolly.com/img/app/product/7/734740-8193429.jpg?auto=format"
+    },
+    {
+      "id": 208,
+      "brand": "Biba",
+      "price": 3999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://rukminim1.flixcart.com/image/832/832/ksgehzk0/salwar-kurta-dupatta/5/l/q/36-skddurgotsa7572-biba-original-imag6yzgxfjcgnab.jpeg?q=70"
+    },
+    {
+      "id": 209,
+      "brand": "Gucci",
+      "price": 8799,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://cms.brnstc.de/product_images/1122x1536_retina/cpro/media/images/product/22/6/100136840411000_0_1655217691761.jpg"
+    }
+  ]
 }
