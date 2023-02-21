@@ -1,0 +1,629 @@
+{
+  "user": [
+    {
+      "id": 2,
+      "Name": "YAsh Prayag",
+      "email": "yash0@gmail.com",
+      "password": "yd@1998"
+    },
+    {
+      "id": 4,
+      "Name": "Shreyash Mundklik",
+      "email": "shreya5@gmail.com",
+      "password": "sm@2001"
+    },
+    {
+      "id": 5,
+      "Name": "Rushi Jadhav",
+      "email": "rushi5@gmail.com",
+      "password": "rj@2000"
+    },
+    {
+      "Name": "Gitesh Gadre",
+      "email": "gitesh@gmail.com",
+      "password": "gitesh@1998",
+      "id": 6
+    },
+    {
+      "Name": "balaji nandure",
+      "email": "balaji@gmail.com",
+      "password": "balaji@2001",
+      "id": 7
+    },
+    {
+      "Name": "Shreyash",
+      "email": "gitesh@gmail.com",
+      "password": "Gitesh123",
+      "id": 8
+    },
+    {
+      "Name": "Swati Panse",
+      "email": "swati@gmail.com",
+      "password": "000000",
+      "id": 9
+    },
+    {
+      "Name": "Akash Dhananjay Prayag",
+      "email": "akashprayag01@gmail.com",
+      "password": "1234",
+      "number": 8698453562,
+      "address": "Ganj golai ,Latur",
+      "gender": "male",
+      "id": 10
+    }
+  ],
+  "footwear": [
+    {
+      "id": 101,
+      "name": "puma",
+      "price": 3150,
+      "color": [
+        "white",
+        "red",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/7189bcbFMTS._UX695_.jpg"
+    },
+    {
+      "id": 102,
+      "name": "Shuperb",
+      "price": 2150,
+      "color": [
+        "grey",
+        "brown"
+      ],
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRImtVpF4ERYruIFdUxEcGMtbvNhYQiDWOKHw&usqp=CAU"
+    },
+    {
+      "id": 103,
+      "name": "adidas",
+      "price": 5000,
+      "color": [
+        "white",
+        "black",
+        "brown"
+      ],
+      "img": "https://media.istockphoto.com/id/458068097/photo/adidas-superstar.jpg?s=612x612&w=0&k=20&c=cBTSduk5_pPHdQi-Qz_YgJrkceHM4Wk4oDww5O_vwaw="
+    },
+    {
+      "id": 104,
+      "name": "Sparks",
+      "price": 4000,
+      "color": [
+        "blue",
+        "black",
+        "brown"
+      ],
+      "img": "https://rukminim1.flixcart.com/image/832/832/l09w8sw0/shoe/l/h/g/6-sm-707-6-sparx-blue-original-imagc2vpdgvpbbzu.jpeg?q=70"
+    },
+    {
+      "id": 5,
+      "name": "Sole",
+      "price": 4500,
+      "color": [
+        "grey",
+        "brown"
+      ],
+      "img": "https://rukminim1.flixcart.com/image/832/832/j4pwsy80-1/shoe/2/q/s/uwebs0133ab-sku-6-10-8-urbanwhiz-black-original-imaeub4tjxweagqu.jpeg?q=70"
+    },
+    {
+      "id": 106,
+      "name": "Flatspot",
+      "price": 1420,
+      "color": [
+        "black",
+        "white"
+      ],
+      "img": "https://cdn.shopify.com/s/files/1/1202/6102/products/dc-x-skateboard-cafe-kalis-og-shoes-light-grey-1_400x464_crop_center.progressive.jpg?v=1673963055"
+    },
+    {
+      "id": 107,
+      "name": "Reebok",
+      "price": 24820,
+      "color": [
+        "white"
+      ],
+      "img": "https://media.gq-magazine.co.uk/photos/62348d984a3c05ad1e218fc9/master/w_1920,h_1280,c_limit/1603032022_Reebok_04.jpeg"
+    },
+    {
+      "id": 108,
+      "name": "Bata",
+      "price": 8942,
+      "color": [
+        "white",
+        "red",
+        "brown"
+      ],
+      "img": "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw8f2e447b/images/large/8213072_1.jpeg?sw=1634"
+    },
+    {
+      "id": 109,
+      "name": "Jordan",
+      "price": 80000,
+      "color": [
+        "white",
+        "red",
+        "black"
+      ],
+      "img": "https://www.highsnobiety.com/static-assets/thumbor/nI3VcQHauvbw62L6WpDwSXoTS3A=/1600x1067/www.highsnobiety.com/static-assets/wp-content/uploads/2021/02/12163548/air-jordan-1-university-blue-release-info-02.jpg"
+    },
+    {
+      "id": 110,
+      "name": "Campus",
+      "price": 999,
+      "color": [
+        "white",
+        "grey",
+        "black"
+      ],
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIBOSUuJmIddWtJKawQyCOn_ijRsQzsB5z9Q&usqp=CAU"
+    },
+    {
+      "id": 111,
+      "name": "Nike",
+      "price": 7999,
+      "color": [
+        "white",
+        "blue"
+      ],
+      "img": "https://images.stockx.com/images/Nike-Dunk-Low-Retro-QS-Flash-White-Argon-Blue-Flash-Product.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&fm=webp&auto=compress&dpr=2&trim=color&updated_at=1658842672&q=75"
+    },
+    {
+      "id": 112,
+      "name": "Louis Vuitton",
+      "price": 4999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/61K5sZNSC9L._UL1000_.jpg"
+    }
+  ],
+  "shirts": [
+    {
+      "id": 201,
+      "brand": "Mufti",
+      "price": 2999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/71gXsUlT+jL._UX569_.jpg"
+    },
+    {
+      "id": 202,
+      "brand": "H & M",
+      "price": 1499,
+      "color": [
+        "pink",
+        "purple"
+      ],
+      "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGBgp4_ZBHaEEt1FOyzVz65N3VdmCMMcOdPopj_Ri-EwWLI1gG"
+    },
+    {
+      "id": 203,
+      "brand": "Roadstar",
+      "price": 1099,
+      "color": [
+        "white",
+        "black"
+      ],
+      "img": "http://res.cloudinary.com/netq-recipes/image/upload/v1530796465/bjtwwvunfjaddo221yyz.jpg"
+    },
+    {
+      "id": 204,
+      "brand": "Rodeo",
+      "price": 1799,
+      "color": [
+        "white",
+        "black"
+      ],
+      "img": "https://i.etsystatic.com/34588671/c/1561/1240/693/366/il/4503cd/4544224173/il_340x270.4544224173_sull.jpg"
+    },
+    {
+      "id": 205,
+      "brand": "Arrow",
+      "price": 2599,
+      "color": [
+        "Sky blue",
+        "navy"
+      ],
+      "img": "https://m.media-amazon.com/images/I/518r3ZPkEUL.jpg"
+    },
+    {
+      "id": 206,
+      "brand": "HRX",
+      "price": 1299,
+      "color": [
+        "green-blue",
+        "black-navy"
+      ],
+      "img": "http://assets.myntassets.com/assets/images/14281646/2021/11/8/23bde715-5c7a-4962-bcdf-d8ccf5abed391636371947948-HRX-By-Hrithik-Roshan-U-17-Active-Girls-Neon-Lime-Rapid-Dry--1.jpg"
+    },
+    {
+      "id": 207,
+      "brand": "Allen solly",
+      "price": 2099,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://imagescdn.allensolly.com/img/app/product/7/734740-8193429.jpg?auto=format"
+    },
+    {
+      "id": 208,
+      "brand": "Biba",
+      "price": 3999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://rukminim1.flixcart.com/image/832/832/ksgehzk0/salwar-kurta-dupatta/5/l/q/36-skddurgotsa7572-biba-original-imag6yzgxfjcgnab.jpeg?q=70"
+    },
+    {
+      "id": 209,
+      "brand": "Gucci",
+      "price": 8799,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://cms.brnstc.de/product_images/1122x1536_retina/cpro/media/images/product/22/6/100136840411000_0_1655217691761.jpg"
+    },
+    {
+      "id": 210,
+      "brand": "Levi's",
+      "price": 999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/A1K950823oL._UY550_.jpg"
+    },
+    {
+      "id": 211,
+      "brand": "Monte Carlo",
+      "price": 2599,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/91kzIuftlIL._UY550_.jpg"
+    },
+    {
+      "id": 212,
+      "brand": "Peter England",
+      "price": 1399,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPPETER-ENGLANADIT50996C157E7E4/1562974851991_0..jpg"
+    }
+  ],
+  "pants": [
+    {
+      "id": 301,
+      "brand": "Mufti",
+      "price": 2999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://www.muftijeans.in/media/catalog/product/cache/72ecbf8444b2c4d1e625f30416db39ce/1/_/1_mft-17189-p-89-stone_2.jpg"
+    },
+    {
+      "id": 302,
+      "brand": "H & M",
+      "price": 1499,
+      "color": [
+        "pink",
+        "purple"
+      ],
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8QsLtEfsXjUxAk4jLPD2LIuwsplPfqB5mBQ&usqp=CAU"
+    },
+    {
+      "id": 303,
+      "brand": "Roadstar",
+      "price": 1099,
+      "color": [
+        "white",
+        "black"
+      ],
+      "img": "https://m.media-amazon.com/images/I/616NBgSKg8L._UX385_.jpg"
+    },
+    {
+      "id": 304,
+      "brand": "Rodeo",
+      "price": 999,
+      "color": [
+        "white",
+        "black"
+      ],
+      "img": "https://cdn.shopify.com/s/files/1/0266/6276/4597/products/100001_300788923001_1_1024x1024.jpg?v=1669706944"
+    },
+    {
+      "id": 305,
+      "brand": "Arrow",
+      "price": 3099,
+      "color": [
+        "Sky blue",
+        "navy"
+      ],
+      "img": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": 306,
+      "brand": "HRX",
+      "price": 1299,
+      "color": [
+        "green-blue",
+        "black-navy"
+      ],
+      "img": "https://cdn.fashiola.in/L100130365/hrx-men-trousers-men-striped-thyme-terry-track-pants.jpg"
+    },
+    {
+      "id": 307,
+      "brand": "Allen solly",
+      "price": 3099,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://cdn.shopify.com/s/files/1/0613/8622/7909/products/190929-COH-0481_1800x1800.jpg?v=1668239322"
+    },
+    {
+      "id": 308,
+      "brand": "Biba",
+      "price": 2599,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://cdn.shopify.com/s/files/1/0551/9015/9499/products/1CROPHALF_765x.jpg?v=1660187094"
+    },
+    {
+      "id": 309,
+      "brand": "Gucci",
+      "price": 8799,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://cdn.fashiola.in/L89253371/gucci-tapered-striped-logo-intarsia-cotton-track-pants.jpg"
+    },
+    {
+      "id": 310,
+      "brand": "Levi's",
+      "price": 999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/81TgxMk-sUL._UX679_.jpg"
+    },
+    {
+      "id": 311,
+      "brand": "Monte Carlo",
+      "price": 3599,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/711qSw7i9fL._UL1500_.jpg"
+    },
+    {
+      "id": 312,
+      "brand": "Peter England",
+      "price": 1799,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://imagescdn.peterengland.com/img/app/product/8/81954-204498.jpg?auto=format&w=494.40000000000003"
+    }
+  ]
+  ,
+  "eyewear":[
+
+    {
+      "id": 401,
+      "brand": "ojos",
+      "price": 999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//o/i/silver-black-orange-full-rim-cat-eye-ojos-oj-s15221-c3-sunglasses_g_8292_8_30_22.jpg"
+    },
+    {
+      "id": 402,
+      "brand": "Mask",
+      "price": 499,
+      "color": [
+        "pink",
+        "brown"
+      ],
+      "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//m/a/mask-ms-s10820-c2-sunglasses_j_3158_2.jpg"
+    },
+    {
+      "id": 403,
+      "brand": "Hooper Switch",
+      "price": 699,
+      "color": [
+        "Orange"
+      ],
+      "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//h/i/orange-transparent-yellow-full-rim-rectangle-hooper--hp-e14821l-c2-eyelasses_g_3013_7_21_22.jpg"
+    },
+    {
+      "id": 404,
+      "brand": "Fossil ",
+      "price": 399,
+      "color": [
+        "grey",
+        "black"
+      ],
+      "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/1325x636/9df78eab33525d08d6e5fb8d27136e95//f/o/fos-fos-7078-g-rzz-eyeglasses_G_6910.jpg"
+    },
+    {
+      "id": 405,
+      "brand": "New Balance",
+      "price": 1299,
+      "color": [
+        "Sky blue"
+      ],
+      "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/1325x636/9df78eab33525d08d6e5fb8d27136e95//n/e/new-balance-nb-e13663-c1-eyeglasses_g_4477_3.jpg"
+    },
+
+    {
+      "id": 406,
+      "brand": "Polo Sports",
+      "price": 799,
+      "color": [
+        "green-blue",
+        "black-navy"
+      ],
+      "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/1325x636/9df78eab33525d08d6e5fb8d27136e95//p/o/polo-sports-black-blue-polo-sports-lmr-1005-c2-eye_G_0979.jpg"
+    },
+    {
+      "id": 407,
+      "brand": "Maroon Transparent Full Rim Cat Eye Eyeglasses",
+      "price": 1999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/1325x636/9df78eab33525d08d6e5fb8d27136e95//l/i/Maroon-Transparent-Gold-Full-Rim-Cat-Eye-Lenskart-Air-Signia-LA-E14100-C2-Eyeglasses_lenskart-air-la-e14100-c2-c2-eyeglasses_G_7502_10_02_2022.jpg"
+    },
+    {
+      "id": 408,
+      "brand": "PERSOL PO0714SM STEVE",
+      "price": 2099,
+      "color": [
+        "orange",
+        "golden"
+      ],
+      "img": " https://do6sydhp1s299.cloudfront.net/web/files/collections/28678695_original.jpg"
+    },
+    {
+      "id": 409,
+      "brand": "Vincent Chase",
+      "price": 899,
+      "color": [
+        "golden"
+      ],
+      "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/1325x636/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e13786-c1-eyeglasses_g_3331.jpg"
+    },
+    {
+      "id": 410,
+      "brand": "BURBERRY BE4291 ",
+      "price": 1299,
+      "color": [
+        "black",
+        "brown"
+      ],
+      "img": " https://do6sydhp1s299.cloudfront.net/web/files/collections/29254093_original.jpg "
+    },
+    {
+      "id": 411,
+      "brand": "https://do6sydhp1s299.cloudfront.net/web/files/collections/29200875_original.jpg ",
+      "price": 1399,
+      "color": [
+        "red",
+        "green"
+      ],
+      "img": "OAKLEY SUTRO LITE OO9463 "
+    },
+    {
+      "id": 412,
+      "brand": " ALTUZARRA",
+      "price": 539,
+      "color": [
+        "black",
+        "brown"
+      ],
+      "img": "https://do6sydhp1s299.cloudfront.net/web/files/collections/5ec9599a0bbc51.20550069.png "
+    }
+    
+
+  ],
+
+  "cosmetics":[
+
+    {
+      "id": 501,
+      "brand": "Himalaya Herbals Strawberry Shine Lip Care",
+      "price": 130,
+      "img": "https://m.media-amazon.com/images/I/61NRoULMHRS._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": 502,
+      "brand": "L'Oréal Professionnel Serie Expert",
+      "price": 1499,
+      "img": "https://m.media-amazon.com/images/I/61M8tRR0IUL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": 503,
+      "brand": "Naykaa Nail Enamel",
+      "price": 699,
+      
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/b/db4a7ab8904245700171_1.jpg"
+    },
+    {
+      "id": 504,
+      "brand": " LAKMÉ Eyeconic Kajal",
+      "price": 299,
+      "img": "https://m.media-amazon.com/images/I/41ZxXu5fg4L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": 505,
+      "brand": "MAC foundation",
+      "price": 1299,
+      "img": "https://sdcdn.io/mac/in/mac_sku_M51090_1x1_1.png?width=1080&height=1080"
+    },
+
+    {
+      "id": 506,
+      "brand": " Avon True Color  Liquid Lip",
+      "price": 499,
+      "img": "https://www.avon.co.in/assets/en-in/images/product/prod_30960_1_613x613.jpg"
+    },
+    {
+      "id": 507,
+      "brand": "VLCC Vitamin C Foaming Facewash",
+      "price": 499,
+      "img": "https://cdn.shopify.com/s/files/1/0555/3894/2031/products/VitaminCFaceWash_Front_700x.jpg?v=1651167970"
+    },
+    {
+      "id": 508,
+      "brand": "Maybelline INSTANT AGE REWIND CONCEALER",
+      "price": 2099,
+      "img": "https://www.maybelline.co.in/-/media/project/loreal/brand-sites/mny/apac/in/products/face/concealer/instant-age-rewind-concealer/modules/product-info/neutral/880x1320_instant-age-rewind-eraser_stick_neutral_o.jpg?rev=a23dc478cb9441629e13506e4e29b979&cx=0&cy=0&cw=316&ch=475&hash2CF2D5B80EC3CEC26BD9D5C83F3E9F78"
+    },
+    {
+      "id": 509,
+      "brand": "biotque Advanced Organics",
+      "price": 225,
+      "img": "https://cdn.shopify.com/s/files/1/0652/3787/6974/products/1.jpg?v=1665050794"
+    },
+    {
+      "id": 510,
+      "brand": "Jovees Sindoor Red",
+      "price": 125,
+      "img": "https://jovees.com/media/catalog/product/cache/5c4bc2c3d3720a5cabc0a23ab84582f1/1/s/1st-banner_5_.jpg"
+    },
+    {
+      "id": 511,
+      "brand": "MaMa-eARTH oil control compact",
+      "price": 549,
+      "img": "https://images.mamaearth.in/catalog/product/a/r/artboard_3_3.png?fit=contain&width=400&height=400"
+    },
+    {
+      "id": 512,
+      "brand": "Recode eyeshadow Palette",
+      "price": 999,
+      "img": "https://cdn.shopify.com/s/files/1/0477/3327/6826/products/MOLTEN-METALS1_360x.png?v=1653548874"
+    }
+    
+  ]
+}

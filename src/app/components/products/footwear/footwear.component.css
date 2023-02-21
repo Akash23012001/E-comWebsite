@@ -1,0 +1,48 @@
+/* .foot{
+    
+} */
+body{
+    background-image: url("https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    /* background-repeat: no-repeat; */
+    background-position: 100vh;
+}   
+/* .bimage{
+
+} */
+
+.cimage{
+    
+    height: 20vh ;
+}
+.heading{
+    font-family :'Times New Roman', Times, serif;
+}
+
+/* .signout{
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+
+
+} */
+
+.search{
+    display: flex;
+    justify-content:end;
+    cursor: pointer;
+}
+
+.header{
+    background-color:teal;
+   
+}
+
+.sitename{
+    display: flex;
+    /* justify-content: end; */
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}

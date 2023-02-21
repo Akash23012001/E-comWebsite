@@ -1,0 +1,12 @@
+.newlogin{
+    background-repeat: no-repeat;
+    /* background-size: 300vh; */
+    background-image: url('../../../assets/login/shopping-cart-with-wooden-elements.jpg');
+    background-size: 100%;
+    height: 100vh;
+
+}
+
+/* .container{
+    padding: 10%;
+} */

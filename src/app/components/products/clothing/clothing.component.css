@@ -1,0 +1,28 @@
+.toggles{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cimage{
+    height: 30vh;
+}
+
+.search{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.header{
+    background-color: teal;
+}
+
+.head{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .template{
+    justify-content: end;
+} */

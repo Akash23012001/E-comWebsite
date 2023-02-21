@@ -1,0 +1,45 @@
+<!-- <h1>Login </h1> -->
+<div class="login-page">
+<nav class="nav ps-5">
+    <h1>E-com <i class="fa fa-shopping-bag" aria-hidden="true"></i></h1>
+    <!-- <div class="nav-search">
+        <input type="text" placeholder="Search for products">
+        <Button class="btn btn-outline-dark">Search</Button>
+    </div>
+     -->
+
+</nav>
+
+<h1 id="logname">Login</h1>
+<div class="login" >
+   
+    <form class="form" #form="ngForm" (ngSubmit)="getlogin(form.value)">
+        <div class="col-sm-4 mb-4">
+            <label class="label " for="">Enter Name</label>
+            <input type="text" class="form-control col-sm-4" placeholder="Enter Name" name="Name" required #fname="ngModel" ngModel>
+
+        </div>
+        <div class="col-sm-4 mb-4">
+            <label class="label " for="">Enter Mail</label>
+            <input type="email" class="form-control col-sm-4" placeholder="Enter Email" name="Email" required #ename="ngModel" ngModel>
+        </div>
+        <div class="col-sm-4 mb-4">
+            <label class="label" for="">Enter Password</label>
+            <input type="password" class="form-control col-sm-4" placeholder="Enter Password" name="password"  required #pass="ngModel" ngModel>
+        </div>
+        <div class="col-sm-4 button">
+
+            <button type="submit" class="btn btn-primary" [disabled]="form.invalid"  >Login</button>
+        </div>
+        <!-- <div class="col-sm-12 m-5"></div> -->
+        <div class="col-sm-4">
+
+            <a routerLink="new-user">not a existing user? create account!!</a>
+        </div>
+        <p *ngIf="invalidUser"  class="alert alert-danger col-sm-4">{{invalidUser}}</p>
+
+    </form>
+</div>
+
+<footer class="footer">App by Akash</footer>
+</div>

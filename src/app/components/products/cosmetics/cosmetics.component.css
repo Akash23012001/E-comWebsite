@@ -1,0 +1,28 @@
+.cimage{
+    
+    height: 20vh ;
+}
+.heading{
+    font-family :'Times New Roman', Times, serif;
+}
+
+.search{
+    display: flex;
+    justify-content:end;
+    cursor: pointer;
+}
+
+.header{
+    background-color:teal;
+   
+}
+
+.sitename{
+    display: flex;
+    /* justify-content: end; */
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}

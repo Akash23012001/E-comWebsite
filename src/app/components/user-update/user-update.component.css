@@ -1,0 +1,36 @@
+.canva{
+    display: flex;
+    justify-content:space-between;
+}
+
+.both{
+    /* height: 100% ; */
+}
+
+.updateForm{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap
+    
+  
+}
+.delete{
+    color:red;
+}
+
+.update{
+
+    color:darkblue;
+}
+
+.updateDiv{
+    height : 80vh;
+    /* height: 40em; */
+    background-color: skyblue;
+}
+
+.deleteDiv{
+    height:20vh;
+    background-color:cadetblue;
+}

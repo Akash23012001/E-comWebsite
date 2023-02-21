@@ -1,0 +1,120 @@
+<!-- <div class=" foot">
+    <p class="signout text-danger me-3 pt-3" (click)="signout()">signout &nbsp; <i class="fa fa-sign-out mt-1"
+            aria-hidden="true"></i> </p>
+    <h1 class="text-center text-warning heading">Wardrobe <i class="fa fa-hand-o-left text-primary"
+            aria-hidden="true"></i></h1>
+</div> -->
+<div class="header ps-3 pe-3">
+    <div class="head mb-2">
+        <h1 class="sitename">E-com <i class="fa fa-shopping-bag" aria-hidden="true"></i></h1>
+       
+        <app-canvas></app-canvas>
+    <!-- <button class="btn " (click)="open(content)"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button> -->
+    </div>
+
+    <!-- <div class="convas">
+        <ng-template #content let-offcanvas>
+            <div class="offcanvas-header ">
+                <h4 class="offcanvas-title">Select section</h4>
+                <button type="button" class="btn-close " 
+                    (click)="offcanvas.dismiss('Cross click')"></button>
+            </div>
+            <div class="offcanvas-body">
+                <button class="btn form-control" (click)="getcompo('footwear')">Footwear &hellip;</button>
+                <button class="btn form-control" (click)="getcompo('clothing')" >Clothing &hellip;</button>
+                <button class="btn form-control" (click)="getcompo('eyewear')" >Eyewear &hellip;</button>
+                <button class="btn form-control" (click)="getcompo('cosmetics')">Cosmetics &hellip;</button>
+                <h5 class="signout text-danger mt-5 me-3 " (click)="signout()">signout &nbsp; <i class="fa fa-sign-out mt-1"
+                    aria-hidden="true"></i> </h5>
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-dark"
+                        (click)="offcanvas.close('Close click')">Close</button>
+                </div>
+                
+            </div>
+        </ng-template>
+    </div> -->
+    <div class="nav-search search">
+        
+        <div class="">
+            <input type="text" class="col-sm-2 form-control" [(ngModel)]="term" placeholder="Search for products">
+            <!-- <Button class="btn btn-outline-dark ">Search</Button> -->
+        </div>
+    </div>
+    <h1 class="text-center text-warning heading">Wardrobe <i class="fa fa-hand-o-left text-primary"
+            aria-hidden="true"></i></h1>
+</div>
+
+<div class="">
+
+
+    <p class="toggles">
+        <button type="button" class="btn btn-outline-primary" (click)="collapse.toggle()" (click)="changeshirt()"
+            [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+            Shrits/Hoodies
+        </button>
+
+
+        <button type="button" class="btn btn-outline-primary" (click)="collaps.toggle()" (click)="changepant()"
+            [attr.aria-expanded]="!Collapsed" aria-controls="collapseExample" t>
+            pants/trousers
+        </button>
+    </p>
+</div>
+
+<div class="container-fluid">
+
+
+    <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+        <div class="row ms-5 ps-5 text-center">
+            <div *ngFor="let shirt of dataShirt |filter :term" class="group col-2 m-5">
+                <div class="">
+                    <div class="card">
+                        <img src={{shirt.img}} class="card-img-top cimage" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{shirt.brand}}</h5>
+                            <p class="card-text">
+                                <select name="" id="" class="form-select">
+                                    <option value="">select color</option>
+                                    <option *ngFor="let color of shirt.color" [value]="color">{{color}}</option>
+                                </select>
+                            </p>
+                            <p class="card-text"><strong>₹ {{shirt.price}}</strong>  </p>
+                            <button class="btn btn-outline-dark">
+                                add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div #collaps="ngbCollapse" [(ngbCollapse)]="Collapsed">
+        <div class="row ms-5 ps-5 text-center">
+            <div *ngFor="let pant of dataPant" class="group col-2 m-5">
+                <div class="">
+                    <div class="card">
+                        <img src={{pant.img}} class="card-img-top cimage" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{pant.brand}}</h5>
+                            <p class="card-text">
+                                <select name="" id="" class="form-select">
+                                    <option value="">select color</option>
+                                    <option *ngFor="let color of pant.color" [value]="color">{{color}}</option>
+                                </select>
+                            </p>
+                            <p class="card-text"><strong>₹ {{pant.price}}</strong> </p>
+                            <button class="btn btn-outline-dark">
+                                add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

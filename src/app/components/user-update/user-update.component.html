@@ -1,0 +1,69 @@
+<div class="both">
+    <div class="updateDiv">
+        <div class="canva d-flex flex-end">
+
+            <h3 class="update">Update Your Profile <i class="fa fa-user-circle text-dark" aria-hidden="true"></i></h3>
+            <app-canvas></app-canvas>
+        </div>
+        <form class="form updateForm" #form="ngForm" (ngSubmit)="updateuser(form.value)">
+            <div class="col-sm-4 mb-4">
+                <label class="label " for="">Update Name</label>
+                <input type="text" class="form-control col-sm-4" placeholder="Enter name" name="Name" required
+                    #fname="ngModel" [ngModel]="userData?.Name">
+
+            </div>
+
+            <div class="col-sm-4 mb-4">
+                <label class="label " for="">update Mail</label>
+                <input type="email" class="form-control col-sm-4" placeholder="Enter Email" name="email" required
+                    #ename="ngModel" [ngModel]="userData?.email">
+            </div>
+
+            <div class="col-sm-4 mb-4">
+                <label class="label" for="">Update Password</label>
+                <input type="password" class="form-control col-sm-4 mb-2" placeholder="Enter Password" name="password"
+                    required #pass="ngModel" [ngModel]="userData?.password">
+                <!-- <input type="text"> -->
+            </div>
+
+            <div class="col-sm-4 mb-4">
+                <label class="label" for="">Add contact number</label>
+                <input type="number" class="form-control col-sm-4 mb-2" placeholder="update number" name="number"
+                    required #num="ngModel" [ngModel]="userData?.number">
+            </div>
+
+            <div class="col-sm-4 mb-4">
+                <label class="label" for="">Add address</label>
+                <input type="text" class="form-control col-sm-4 mb-2" placeholder="Enter Address" name="address"
+                    required #num="ngModel" [ngModel]="userData?.address">
+            </div>
+
+            <div class="col-sm-4 mb-4">
+                <select class="form-select" name="gender" id="" #gender="ngModel" [ngModel]="userData?.gender">
+                    <option value="">Select gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+
+
+
+            <div class="col-sm-4 button">
+                <button type="submit" class="btn btn-primary">Update</button>
+            </div>
+
+        </form>
+    </div>
+    <div class="deleteDiv">
+
+        <h2 class="delete text-danger">Delete Account <i class="fa fa-trash-o" aria-hidden="true"></i></h2>
+
+        <p class="ps-3 text-dark">Notice : This may permenantly remove all your access from this application </p>
+
+        <div class="updateForm">
+
+            <button class="btn btn-outline-danger" (click)="udelete()">Delete</button>
+        </div>
+    </div>
+</div>

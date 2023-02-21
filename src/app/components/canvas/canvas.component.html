@@ -1,0 +1,32 @@
+
+<button class="btn " (click)="open(content)"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+
+
+<div class="convas">
+    <ng-template #content let-offcanvas>
+        <div class="offcanvas-header ">
+            <h4 class="offcanvas-title">Select section</h4>
+            <button type="button" class="btn-close " 
+                (click)="offcanvas.dismiss('Cross click')"></button>
+        </div>
+        <div class="offcanvas-body">
+            
+            <button class="btn form-control" (click)="getcompo('cart')">Cart <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+            <button class="btn form-control" (click)="getcompo('home-page')">Home <i class="fa fa-home" aria-hidden="true"></i></button>
+            <button class="btn form-control" (click)="getcompo('footwear')">Footwear <img src="../../../assets/login/Machovka_Shoes.svg" alt="" width="25px"></button>
+            <button class="btn form-control" (click)="getcompo('clothing')" >Clothing  <img src="../../../assets/login/Clothing-Icon.svg" alt="" width="25px"> </button>
+            <button class="btn form-control" (click)="getcompo('eyewear')" >Eyewear  <img src="../../../assets/login/glasses.svg" alt="" width="25px"></button>
+            <button class="btn form-control" (click)="getcompo('cosmetics')">Cosmetics  <img src="../../../assets/login/1347916868.svg" alt="" width="25px"></button>
+            <button class="btn form-control" (click)="getcompo('userupdate')">User <i class="fa fa-user-circle" aria-hidden="true"></i></button>
+            
+
+            <!-- <h5 class="signout text-danger mt-5 me-3 " (click)="signout()">signout &nbsp; <i class="fa fa-sign-out mt-1"
+                aria-hidden="true"></i> </h5> -->
+            <div class="text-end">
+                <button type="button" class="btn btn-danger"
+                (click)="signout()">signout &nbsp; <i class="fa fa-sign-out mt-1"
+                aria-hidden="true"></i></button>
+            </div>
+            
+        </div>
+    </ng-template>

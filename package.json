@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "concurrently \"ng serve \"  \"npm run json-start\"",
     "build": "ng build",
+    "json-start": "cd/new site/esite/src/ && json-server --watch db.json",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -15,9 +16,16 @@
     "@angular/compiler": "^14.2.0",
     "@angular/core": "^14.2.0",
     "@angular/forms": "^14.2.0",
+    "@angular/localize": "^14.2.0",
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
+    "@ng-bootstrap/ng-bootstrap": "^13.0.0",
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^5.2.3",
+    "concurrently": "^7.6.0",
+    "font-awesome": "^4.7.0",
+    "ng2-search-filter": "^0.5.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

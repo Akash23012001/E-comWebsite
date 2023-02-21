@@ -1,0 +1,39 @@
+<div class="newlogin">
+
+    <nav class="nav ps-5">
+        <h1>E-com <i class="fa fa-shopping-bag" aria-hidden="true"></i></h1>
+        <!-- <div class="nav-search">
+            <input type="text" placeholder="Search for products">
+            <Button class="btn btn-outline-dark">Search</Button>
+        </div>
+         -->
+    
+    </nav>
+    <h3 class="p-5 ms-5">Please Enter details below to become a user</h3>
+    <div class="container p-5">
+
+
+        <form class="p-2" #newlogin="ngForm" (ngSubmit)="adduser(tableName,newlogin.value)">
+            <div class="col-sm-4 mb-3">
+                <label for="exampleInputname" class="form-label">Enter full Name</label>
+                <input type="text" class="form-control" id="exampleInputname" name="Name" #Name="ngModel" ngModel required >
+                <!-- <div id="emailHelp" class="form-text ">We'll never share your email with anyone else.</div> -->
+            </div>
+            <div class="col-sm-4 mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" #email="ngModel" ngModel required>
+                <div id="emailHelp" class="form-text ">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="col-sm-4 mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="password" #password="ngModel" ngModel required>
+            </div>
+            <div class="col-sm-4 mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary" [disabled]="newlogin.invalid">Submit</button>
+        </form>
+
+    </div>
+</div>
