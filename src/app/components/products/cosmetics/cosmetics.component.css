@@ -1,9 +1,17 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../../../assets/doom-eternal-font/EternalAncient-8MXeg.ttf');
+  }
+
+
 .cimage{
     
     height: 20vh ;
 }
 .heading{
-    font-family :'Times New Roman', Times, serif;
+    /* font-family :'Times New Roman', Times, serif; */
+    color: #3D1766;
+    font-family :'MyFont';
 }
 
 .search{
@@ -13,7 +21,7 @@
 }
 
 .header{
-    background-color:teal;
+    background-color:mediumspringgreen;
    
 }
 
@@ -26,3 +34,14 @@
     display: flex;
     justify-content: space-between;
 }
+
+.row{
+    display: flex;
+
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.card{
+    border: 0px;
+  }

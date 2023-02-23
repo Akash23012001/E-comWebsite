@@ -39,7 +39,14 @@ export class ClothingComponent implements OnInit {
   
 
 
-  clickedscloth(val:any){
+  clickedcloth(val:any){
+    if(confirm("are u sure u want to add this product to the cart ?")){
+
+      localStorage.setItem(val.id, JSON.stringify((val)))
+      
+    }else{
+      null
+    }
     //  sessionStorage.setItem()
   }
 

@@ -25,7 +25,13 @@ export class FootwearComponent implements OnInit {
   }
 
   clickedsShoe(val:any){
-     localStorage.setItem(val.id, JSON.stringify((val)))
+    if(confirm("are u sure u want to add this product to the cart ?")){
+
+      localStorage.setItem(val.id, JSON.stringify((val)))
+      
+    }else{
+      null
+    }
     //  this.cart=  JSON.parse(localStorage.getItem(val.id)!)
     //  console.log(this.cart)
     //  this.cart= JSON.parse(localStorage.getItem(`${val.id}`))

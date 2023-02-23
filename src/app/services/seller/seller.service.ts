@@ -37,4 +37,6 @@ export class SellerService {
     return this.http.delete(`${this.userurl}${table}/${id}`)
   }
 
+  
+
 }

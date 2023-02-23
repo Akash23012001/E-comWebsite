@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../../../assets/doom-eternal-font/EternalAncient-8MXeg.ttf');
+  }
+ .heading{
+    font-family:'MyFont' ;
+    color: #3D1766;
+ } 
+
 .toggles{
     display: flex;
     justify-content: space-evenly;
@@ -14,7 +23,7 @@
 }
 
 .header{
-    background-color: teal;
+    background-color: mediumspringgreen;
 }
 
 .head{
@@ -26,3 +35,14 @@
 /* .template{
     justify-content: end;
 } */
+
+.row{
+    display: flex;
+
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.card{
+    border: 0px;
+  }

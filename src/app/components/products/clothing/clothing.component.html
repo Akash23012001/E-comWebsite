@@ -4,10 +4,10 @@
     <h1 class="text-center text-warning heading">Wardrobe <i class="fa fa-hand-o-left text-primary"
             aria-hidden="true"></i></h1>
 </div> -->
-<div class="header ps-3 pe-3">
-    <div class="head mb-2">
-        <h1 class="sitename">E-com <i class="fa fa-shopping-bag" aria-hidden="true"></i></h1>
-       
+<div class="header  ps-3 pe-3">
+    <div class="head mb-2 pt-2">
+        <h1 class="sitename ">Λ－ｍａｒｔ &nbsp;<i class="fa fa-shopping-bag" aria-hidden="true"></i></h1>
+        
         <app-canvas></app-canvas>
     <!-- <button class="btn " (click)="open(content)"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button> -->
     </div>
@@ -41,8 +41,7 @@
             <!-- <Button class="btn btn-outline-dark ">Search</Button> -->
         </div>
     </div>
-    <h1 class="text-center text-warning heading">Wardrobe <i class="fa fa-hand-o-left text-primary"
-            aria-hidden="true"></i></h1>
+    <h1 class="text-center heading">Wardrobe</h1>
 </div>
 
 <div class="">
@@ -66,7 +65,7 @@
 
 
     <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
-        <div class="row ms-5 ps-5 text-center">
+        <div class="row   text-center">
             <div *ngFor="let shirt of dataShirt |filter :term" class="group col-2 m-5">
                 <div class="">
                     <div class="card">
@@ -79,8 +78,8 @@
                                     <option *ngFor="let color of shirt.color" [value]="color">{{color}}</option>
                                 </select>
                             </p>
-                            <p class="card-text"><strong>₹ {{shirt.price}}</strong>  </p>
-                            <button class="btn btn-outline-dark">
+                            <p class="card-text"><strong> {{shirt.price | currency : "INR"}}</strong>  </p>
+                            <button class="btn btn-outline-dark" (click)="clickedcloth(shirt)">
                                 add to cart
                             </button>
                         </div>
@@ -106,8 +105,8 @@
                                     <option *ngFor="let color of pant.color" [value]="color">{{color}}</option>
                                 </select>
                             </p>
-                            <p class="card-text"><strong>₹ {{pant.price}}</strong> </p>
-                            <button class="btn btn-outline-dark">
+                            <p class="card-text"><strong>{{pant.price | currency : "INR"}}</strong> </p>
+                            <button class="btn btn-outline-dark" (click)="clickedcloth(pant)">
                                 add to cart
                             </button>
                         </div>

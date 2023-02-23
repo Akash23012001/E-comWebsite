@@ -1,21 +1,17 @@
-/* .foot{
-    
-} */
-body{
-    background-image: url("https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
-    /* background-repeat: no-repeat; */
-    background-position: 100vh;
-}   
-/* .bimage{
 
-} */
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../../../assets/doom-eternal-font/EternalAncient-8MXeg.ttf');
+    
+  }
 
 .cimage{
     
     height: 20vh ;
 }
 .heading{
-    font-family :'Times New Roman', Times, serif;
+    color: #3D1766;
+    font-family :'MyFont';
 }
 
 /* .signout{
@@ -33,7 +29,7 @@ body{
 }
 
 .header{
-    background-color:teal;
+    background-color:mediumspringgreen;
    
 }
 
@@ -46,3 +42,14 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.row{
+    display: flex;
+
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.card{
+    border: 0px;
+  }

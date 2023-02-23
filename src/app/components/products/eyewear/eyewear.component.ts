@@ -7,7 +7,7 @@ import { SellerService } from 'src/app/services/seller/seller.service';
   styleUrls: ['./eyewear.component.css']
 })
 export class EyewearComponent implements OnInit {
-
+  
   term:any;
   eyedata:any;
   tableName:string="eyewear"
@@ -21,7 +21,14 @@ export class EyewearComponent implements OnInit {
   }
 
   clickedeye(val:any){
-    localStorage.setItem(val.id, JSON.stringify((val)))
+    if(confirm("are u sure u want to add this product to the cart ?")){
+
+      localStorage.setItem(val.id, JSON.stringify((val)))
+      
+    }else{
+      null
+    }
+    
   }
 
   signout(){

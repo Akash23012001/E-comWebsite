@@ -1,7 +1,7 @@
 <div class="foot">
-    <div class="header ps-3 pe-3">
+    <div class="header pt-2 ps-3 pe-3">
         <div class="head">
-        <h1 class="sitename">E-com <i class="fa fa-shopping-bag" aria-hidden="true"></i></h1>
+        <h1 class="sitename">Λ－ｍａｒｔ &nbsp; <i class="fa fa-shopping-bag" aria-hidden="true"></i></h1>
         <app-canvas></app-canvas>
         </div>
         <div class="nav-search search">
@@ -12,8 +12,7 @@
             <!-- <Button class="btn btn-outline-dark ">Search</Button> -->
             </div>
         </div>
-        <h1 class="text-center text-warning heading">Footwear <i class="fa fa-hand-o-left text-primary"
-                aria-hidden="true"></i></h1>
+        <h1 class="text-center heading">Eyewear</h1>
     </div>
     <div class="row ps-5 text-center container-fluid">
         <div *ngFor="let eye of eyedata | filter : term" class="group  col-2 m-5">
@@ -21,17 +20,18 @@
                 <div class="card ms-2">
                     <img src={{eye.img}} class="card-img-top cimage" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">  {{eye.name}}</h5>
+                        <h5 class="card-title">  {{eye.brand}}</h5>
                         <p class="card-text">
                             <select name="" id="" class="form-select" ngModel>
                                 <option value="">select color</option>  
                                 <option value="{{color}}" *ngFor="let color of eye.color" >{{color}}</option>
                             </select>
                         </p>
-                        <p class="card-text"><strong>₹ {{eye.price}}</strong>  </p>
-                        <button class="btn btn-outline-dark" (click)="clickedeye(eye)">
+                        <p class="card-text"><strong>{{eye.price | currency :"INR"}}</strong>  </p>
+                        <button type="submit"  class="btn btn-outline-primary" (click)="clickedeye(eye)">
                             add to cart
                         </button>
+                        
                     </div>
                 </div>
             </div>

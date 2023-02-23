@@ -35,21 +35,6 @@
       "email": "gitesh@gmail.com",
       "password": "Gitesh123",
       "id": 8
-    },
-    {
-      "Name": "Swati Panse",
-      "email": "swati@gmail.com",
-      "password": "000000",
-      "id": 9
-    },
-    {
-      "Name": "Akash Dhananjay Prayag",
-      "email": "akashprayag01@gmail.com",
-      "password": "1234",
-      "number": 8698453562,
-      "address": "Ganj golai ,Latur",
-      "gender": "male",
-      "id": 10
     }
   ],
   "footwear": [
@@ -422,10 +407,8 @@
       ],
       "img": "https://imagescdn.peterengland.com/img/app/product/8/81954-204498.jpg?auto=format&w=494.40000000000003"
     }
-  ]
-  ,
-  "eyewear":[
-
+  ],
+  "eyewear": [
     {
       "id": 401,
       "brand": "ojos",
@@ -474,7 +457,6 @@
       ],
       "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/1325x636/9df78eab33525d08d6e5fb8d27136e95//n/e/new-balance-nb-e13663-c1-eyeglasses_g_4477_3.jpg"
     },
-
     {
       "id": 406,
       "brand": "Polo Sports",
@@ -544,12 +526,8 @@
       ],
       "img": "https://do6sydhp1s299.cloudfront.net/web/files/collections/5ec9599a0bbc51.20550069.png "
     }
-    
-
   ],
-
-  "cosmetics":[
-
+  "cosmetics": [
     {
       "id": 501,
       "brand": "Himalaya Herbals Strawberry Shine Lip Care",
@@ -566,7 +544,6 @@
       "id": 503,
       "brand": "Naykaa Nail Enamel",
       "price": 699,
-      
       "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/b/db4a7ab8904245700171_1.jpg"
     },
     {
@@ -581,7 +558,6 @@
       "price": 1299,
       "img": "https://sdcdn.io/mac/in/mac_sku_M51090_1x1_1.png?width=1080&height=1080"
     },
-
     {
       "id": 506,
       "brand": " Avon True Color  Liquid Lip",
@@ -624,11 +600,136 @@
       "price": 999,
       "img": "https://cdn.shopify.com/s/files/1/0477/3327/6826/products/MOLTEN-METALS1_360x.png?v=1653548874"
     }
-    
-  ]
-  ,
-
-  "sale":[
+  ],
+  "Mobiles": [
+    {
+      "id": 601,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 13 (256GB) - (Product) RED",
+      "price": 100000,
+      "img": "https://m.media-amazon.com/images/I/71gm8v4uPBL._SL1500_.jpg"
+    },
+    {
+      "id": 602,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 14 Pro 128GB Space Black",
+      "price": 122999,
+      "img": "https://m.media-amazon.com/images/I/61XO4bORHUL._SL1500_.jpg"
+    },
+    {
+      "id": 603,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 13 Mini (256 GB) - Green",
+      "price": 74900,
+      "img": "https://m.media-amazon.com/images/I/61cMQeVEGKL._SL1500_.jpg"
+    },
+    {
+      "id": 604,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 14 Pro Max 128GB Gold",
+      "price": 132999,
+      "img": "https://m.media-amazon.com/images/I/61cMQeVEGKL._SL1500_.jpg"
+    },
+    {
+      "id": 605,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone SE (256 GB) - Midnight (3rd Generation)",
+      "price": 64999,
+      "img": "https://m.media-amazon.com/images/I/61cMQeVEGKL._SL1500_.jpg"
+    },
+    {
+      "id": 607,
+      "Brand": "Brand: onePlus",
+      "name": "OnePlus 11 5G (Eternal Green, 16GB RAM, 256GB Storage)",
+      "price": 63999,
+      "img": "https://m.media-amazon.com/images/I/61amb0CfMGL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id": 608,
+      "Brand": "Brand: onePlus",
+      "name": "(Renewed) OnePlus 5 (Midnight Black, 6GB RAM, 64GB Storage)",
+      "price": 10999,
+      "img": "https://m.media-amazon.com/images/I/61uupH-LTjL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id": 609,
+      "Brand": "Brand: onePlus",
+      "name": "OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)",
+      "price": 18999,
+      "img": "https://m.media-amazon.com/images/I/71AvQd3VzqL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id": 610,
+      "Brand": "Brand: onePlus",
+      "name": "OnePlus Nord 2T 5G (Gray Shadow, 8GB RAM, 128GB Storage)",
+      "price": 28999,
+      "img": "https://m.media-amazon.com/images/I/617MPEZB5mL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id": 611,
+      "Brand": "Brand: onePlus",
+      "name": "(Renewed) OnePlus 5T (Midnight Black, 64GB)",
+      "price": 9999,
+      "img": "https://m.media-amazon.com/images/I/51JYkrgR4QL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id": 613,
+      "Brand": "Brand: Samsung",
+      "name": "Samsung Galaxy S23 Plus 5G (Cream, 8GB, 256GB Storage) Galaxy Watch4 Bluetooth and",
+      "price": 97998,
+      "img": "https://m.media-amazon.com/images/I/41VWT06rfnL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id": 614,
+      "Brand": "Brand: Samsung",
+      "name": "Samsung Galaxy M33 5G (Mystique Green, 6GB, 128GB Storage) | 6000mAh Battery | Upto 12GB RAM with RAM Plus | Travel Adapter to be Purchased Separately",
+      "price": 15999,
+      "img": "https://m.media-amazon.com/images/I/81I3w4J6yjL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id": 615,
+      "Brand": "Brand: Samsung",
+      "name": "Samsung Galaxy S23 Ultra 5G (Green, 12GB, 256GB Storage)",
+      "price": 124999,
+      "img": "https://m.media-amazon.com/images/I/61VfL-aiToL._AC_UL480_QL65_.jpg"
+    },
+    {
+      "id": 616,
+      "Brand": "Brand: Samsung",
+      "name": "Samsung Galaxy M04 Light Green, 4GB RAM, 64GB Storage | Upto 8GB RAM with RAM Plus | MediaTek Helio P35 | 5000 mAh Battery",
+      "price": 8999,
+      "img": "https://m.media-amazon.com/images/I/814ePfNubRL._AC_UY327_QL65_.jpg"
+    }
+  ],
+  "sale": [
+    {
+      "id": 717,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 13 (256GB) - (Product) RED",
+      "price": 100000,
+      "img": "https://m.media-amazon.com/images/I/71gm8v4uPBL._SL1500_.jpg"
+    },
+    {
+      "id": 718,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 14 Pro 128GB Space Black",
+      "price": 122999,
+      "img": "https://m.media-amazon.com/images/I/61XO4bORHUL._SL1500_.jpg"
+    },
+    {
+      "id": 719,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 13 Mini (256 GB) - Green",
+      "price": 74900,
+      "img": "https://m.media-amazon.com/images/I/61cMQeVEGKL._SL1500_.jpg"
+    },
+    {
+      "id": 720,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 14 Pro Max 128GB Gold",
+      "price": 132999,
+      "img": "https://m.media-amazon.com/images/I/61cMQeVEGKL._SL1500_.jpg"
+    },
     {
       "id": 701,
       "name": "Shuperb",
@@ -645,36 +746,35 @@
       "id": 703,
       "name": "Sparks",
       "price": 4000,
-     
       "img": "https://rukminim1.flixcart.com/image/832/832/l09w8sw0/shoe/l/h/g/6-sm-707-6-sparx-blue-original-imagc2vpdgvpbbzu.jpeg?q=70"
     },
     {
       "id": 704,
-      "brand": "VLCC Vitamin C Foaming Facewash",
+      "name": "VLCC Vitamin C Foaming Facewash",
       "price": 499,
       "img": "https://cdn.shopify.com/s/files/1/0555/3894/2031/products/VitaminCFaceWash_Front_700x.jpg?v=1651167970"
     },
     {
       "id": 705,
-      "brand": "Maybelline INSTANT AGE REWIND CONCEALER",
+      "name": "Maybelline INSTANT AGE REWIND CONCEALER",
       "price": 2099,
       "img": "https://www.maybelline.co.in/-/media/project/loreal/brand-sites/mny/apac/in/products/face/concealer/instant-age-rewind-concealer/modules/product-info/neutral/880x1320_instant-age-rewind-eraser_stick_neutral_o.jpg?rev=a23dc478cb9441629e13506e4e29b979&cx=0&cy=0&cw=316&ch=475&hash2CF2D5B80EC3CEC26BD9D5C83F3E9F78"
     },
     {
       "id": 706,
-      "brand": "biotque Advanced Organics",
+      "name": "biotque Advanced Organics",
       "price": 225,
       "img": "https://cdn.shopify.com/s/files/1/0652/3787/6974/products/1.jpg?v=1665050794"
     },
     {
       "id": 707,
-      "brand": "Jovees Sindoor Red",
+      "name": "Jovees Sindoor Red",
       "price": 125,
       "img": "https://jovees.com/media/catalog/product/cache/5c4bc2c3d3720a5cabc0a23ab84582f1/1/s/1st-banner_5_.jpg"
     },
     {
       "id": 708,
-      "brand": "Hooper Switch",
+      "name": "Hooper Switch",
       "price": 699,
       "color": [
         "Orange"
@@ -683,7 +783,7 @@
     },
     {
       "id": 709,
-      "brand": "Fossil ",
+      "name": "Fossil ",
       "price": 399,
       "color": [
         "grey",
@@ -693,7 +793,7 @@
     },
     {
       "id": 710,
-      "brand": "New Balance",
+      "name": "New Balance",
       "price": 1299,
       "color": [
         "Sky blue"
@@ -702,52 +802,40 @@
     },
     {
       "id": 711,
-      "brand": "Mufti",
+      "name": "Mufti",
       "price": 2999,
-      
       "img": "https://www.muftijeans.in/media/catalog/product/cache/72ecbf8444b2c4d1e625f30416db39ce/1/_/1_mft-17189-p-89-stone_2.jpg"
     },
     {
       "id": 712,
-      "brand": "H & M",
+      "name": "H & M",
       "price": 1499,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8QsLtEfsXjUxAk4jLPD2LIuwsplPfqB5mBQ&usqp=CAU"
     },
     {
       "id": 713,
-      "brand": "Roadstar",
+      "name": "Roadstar",
       "price": 1099,
       "img": "https://m.media-amazon.com/images/I/616NBgSKg8L._UX385_.jpg"
     },
     {
-      "id": 207,
-      "brand": "Allen solly",
+      "id": 714,
+      "name": "Allen solly",
       "price": 2099,
-      "color": [
-        "white",
-        "brown"
-      ],
       "img": "https://imagescdn.allensolly.com/img/app/product/7/734740-8193429.jpg?auto=format"
     },
     {
-      "id": 208,
-      "brand": "Biba",
+      "id": 715,
+      "name": "Biba",
       "price": 3999,
-      "color": [
-        "white",
-        "brown"
-      ],
       "img": "https://rukminim1.flixcart.com/image/832/832/ksgehzk0/salwar-kurta-dupatta/5/l/q/36-skddurgotsa7572-biba-original-imag6yzgxfjcgnab.jpeg?q=70"
     },
     {
-      "id": 209,
-      "brand": "Gucci",
+      "id": 716,
+      "name": "Gucci",
       "price": 8799,
-      "color": [
-        "white",
-        "brown"
-      ],
       "img": "https://cms.brnstc.de/product_images/1122x1536_retina/cpro/media/images/product/22/6/100136840411000_0_1655217691761.jpg"
     }
-  ]
+  ],
+  "order": []
 }

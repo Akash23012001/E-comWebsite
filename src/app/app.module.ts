@@ -20,7 +20,8 @@ import { CommonModule } from '@angular/common';
 import { CanvasComponent } from './components/canvas/canvas.component';
 import { CartsComponent } from './components/carts/carts.component';
 import { UserUpdateComponent } from './components/user-update/user-update.component';
-
+import { NgxPaginationModule } from 'ngx-pagination';
+import { MobileComponent } from './components/products/mobile/mobile.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { UserUpdateComponent } from './components/user-update/user-update.compon
     EyewearComponent,
     CanvasComponent,
     CartsComponent,
-    UserUpdateComponent
+    UserUpdateComponent,
+    MobileComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,8 @@ import { UserUpdateComponent } from './components/user-update/user-update.compon
     HttpClientModule,
     NgbModule,
     Ng2SearchPipeModule,
-    CommonModule
+    CommonModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,6 +9,8 @@ import { NgbOffcanvasConfig, NgbOffcanvas } from '@ng-bootstrap/ng-bootstrap';
 })
 export class CanvasComponent implements OnInit {
 
+  value:number=localStorage.length
+
   constructor(config: NgbOffcanvasConfig, private offcanvasService: NgbOffcanvas,private route: Router) {
     config.position = 'end';
 		config.backdropClass = 'bg-info';

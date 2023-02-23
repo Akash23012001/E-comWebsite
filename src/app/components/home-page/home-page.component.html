@@ -1,17 +1,17 @@
-<div class=" header">
+<div class="">
 
   
   <nav class="nav ps-5  pe-5 ">
-  <img class="siteName" src="../../../assets/login/Appify__1_-removebg-preview.png" alt="">
-    <div class="">
-      
+    
+    <div class="head">
+      <h1 class="sitename">Λ－ｍａｒｔ &nbsp; <i class="fa fa-shopping-bag" aria-hidden="true"></i></h1>
     </div>
     <div class="nav-search">
-        <input type="text" class="" placeholder="Search for products">
-        <Button class="btn btn-outline-dark form">Search</Button>
+        <input type="text" class="form-control" [(ngModel)]="term" placeholder="Search for products">
+        <!-- <Button class="form-control btn btn-outline-dark form">Search</Button> -->
     </div>
     <ul class="list">
-        <li><a routerLink="/cart"><h4> Cart <i class="fa fa-cart-arrow-down" aria-hidden="true"></i> </h4></a> </li>
+        <li [(ngModel)]="value"><a routerLink="/cart"><h4>  <i class="fa fa-cart-arrow-down" aria-hidden="true"></i> ({{value}}) </h4></a> </li>
         <li class="m-0"><h4 class="m-0"> <app-canvas></app-canvas></h4></li>   
     </ul>
 
@@ -99,6 +99,44 @@
       </div>
     </div>
   </div>
+
+  <div class="row ps-5 text-center container-fluid">
+    <div class="display-1 text-danger bg-warning">Sale</div>
+    <div *ngFor="let sale of saledata | filter : term | paginate
+    : {
+        itemsPerPage: tableSize,
+        currentPage: page,
+        totalItems: count
+      };" class="group  col-2 m-5">
+        <div class="">
+            <div class="card ms-2">
+                <img src={{sale.img}} class="card-img-top cimage" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">  {{sale.name}}</h5>
+                    <!-- <p class="card-text">
+                        <select name="" id="" class="form-select" ngModel>
+                            <option value="">select color</option>  
+                            <option value="{{color}}" *ngFor="let color of shoe.color" >{{color}}</option>
+                        </select>
+                    </p> -->
+                    <p class="card-text"><strong> {{sale.price | currency : "INR"}}</strong>  </p>
+                    <button class="btn btn-outline-dark" (click)="clickedsale(sale)">
+                        add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="d-flex justify-content-center">
+  <pagination-controls
+    previousLabel="Prev"
+    nextLabel="Next"
+    (pageChange)="onTableDataChange($event)"
+  >
+  </pagination-controls>
+</div>
 
   <footer class="container-fluid">
 

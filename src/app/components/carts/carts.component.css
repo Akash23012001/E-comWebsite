@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('../../../assets/doom-eternal-font/EternalAncient-8MXeg.ttf');
+}
+
+.name{
+  color: #3D1766;
+  font-family :'MyFont';
+}
+
 .head{
     
     display: flex;
@@ -16,7 +26,7 @@
     justify-content:space-between;
     /* background-color: yellow; */
     height: 13vh;
-    background-color:powderblue;
+    background-color:mediumspringgreen;
     
 }
 
@@ -40,7 +50,7 @@
   margin-top: 10%;
   position:relative;
   bottom: 50px;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
 }
 
 

@@ -26,7 +26,13 @@ export class CosmeticsComponent implements OnInit {
 
 
   clickedcosmetic(val:any){
-    localStorage.setItem(val.id, JSON.stringify((val)))
+    if(confirm("are u sure u want to add this product to the cart ?")){
+
+      localStorage.setItem(val.id, JSON.stringify((val)))
+      
+    }else{
+      null
+    }
   }
 
 
