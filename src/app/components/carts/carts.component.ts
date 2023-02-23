@@ -59,10 +59,11 @@ export class CartsComponent implements OnInit {
   }
 
   orderdetails(){
-    this.user.userUpdate(this.ID,"user",this.uid).subscribe(()=>{
-
-      alert("Order Placed Succesfully")
-    })
+    // this.user.userUpdate(this.ID,"user",this.uid).subscribe(()=>{
+    // })
+    alert("Order Placed Succesfully")
+    this.rout.navigate(["/home-page"])
   }
+
 
 }
